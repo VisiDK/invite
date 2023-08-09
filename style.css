@@ -1,0 +1,69 @@
+
+/* Invite box base design (set all items ind middel, both vertical and horizontal */
+.team-invite-box {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+  background: #272626;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+/* Dropdown menubar design */
+.dropdown {
+  border-radius: 0.2rem;
+	padding: 12px 12px;
+	margin: 8px 0px;
+  height: 45px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Leauge logo box size */
+.profile-picture {
+  max-width: 205px;
+  margin: 50px auto;
+}
+
+.profile-picture .profile-img {
+  max-width: 192px;
+  max-height: 192px;
+}
+
+/* Move small logo to the right */
+.right {
+  float: right;
+  top: 0;
+  bottom: 0;
+}
+
+/* SMove small icons to the left */
+.left {
+  float: left;
+  top: 0;
+  bottom: 0;
+}
+
+/* Information icons ind the midel of the box */
+.margin-icon {
+  margin-top: 7px;
+}
+
+/* Popup text deisgn */
+.popup_element {
+  display: none;
+}
+
+/* Popup css funktion that show the popup text */  
+.icon_hover_text:hover + .popup_element {
+  display: block;
+  color: white;
+}
